@@ -8,7 +8,7 @@ const Navbar = () => {
               <div>
                 <a href="#" className="flex items-center py-4 px-2">
                   <span className="font-semibold text-[#aaa] text-lg">
-                    Frontend<span className="text-[#aaa]">Masters</span>
+                    Lumina<span className="text-[#aaa]"></span>
                   </span>
                 </a>
               </div>
@@ -61,9 +61,9 @@ const Navbar = () => {
                 <svg
                   className=" w-6 h-6 text-[#aaa] hover:text-[#highlight-color]"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
