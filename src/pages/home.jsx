@@ -1,4 +1,4 @@
-import { FaStopwatch } from "react-icons/fa";
+import { FaStopwatch, FaRocket } from "react-icons/fa";
 import HeroSection from "../components/Hero.jsx";
 import CardsContainer from "../components/CardCourses.jsx";
 
@@ -6,27 +6,30 @@ function Home() {
   let arr = [
     {
       icon: <FaStopwatch />,
-      title: "Kurslar",
+      title: "Self Study",
       description:
         "Davomiyligi qisqa va sohaning ma'lum qismini qamrab olgan kurslar. Sohadagi o'zinzgizda mavjud bo'shliqni to'ldiring.",
       stats: "33 ta kurs",
-      bgColor: "bg-blue-500",
+      bgColor: "bg-[#37140f]",
+      path: "/self-study",
     },
     {
-      icon: <FaStopwatch />,
-      title: "Kasblar",
+      icon: <FaRocket />,
+      title: "Offline Kurslar ",
       description:
-        "Kasbga yo'naltirilgan praktikum kurslari. 0 dan boshlab ishga tayyor bo'lib chiqing.",
+        "Davomiyligi qisqa va sohaning ma'lum qismini qamrab olgan kurslar. Sohadagi o'zinzgizda mavjud bo'shliqni to'ldiring.",
       stats: "18 ta kasb",
       bgColor: "bg-gray-800",
+      path: "/offline-curses",
     },
     {
-      icon: <FaStopwatch />,
-      title: "Kasblar",
+      icon: <FaRocket />,
+      title: "Online Kurslar",
       description:
-        "Kasbga yo'naltirilgan praktikum kurslari. 0 dan boshlab ishga tayyor bo'lib chiqing.",
+        "Davomiyligi qisqa va sohaning ma'lum qismini qamrab olgan kurslar. Sohadagi o'zinzgizda mavjud bo'shliqni to'ldiring.",
       stats: "18 ta kasb",
       bgColor: "bg-gray-800",
+      path: "/online-curses",
     },
   ];
 
